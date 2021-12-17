@@ -3,3 +3,11 @@ body {
     background: #d6a7b1;
     margin: 0;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 0;
+}
