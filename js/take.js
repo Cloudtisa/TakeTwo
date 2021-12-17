@@ -32,7 +32,7 @@ const handleClick = () => {
     const birthMonth = birthMonthBox.value;
     const birthYear = birthYearBox.value;
     const birthGender = birthGenderBox.value;
-    
+
      // Check user gender
      const allGendersArray = ["Male", "Female"]
      if (allGendersArray.includes(birthGender)) {
@@ -40,3 +40,18 @@ const handleClick = () => {
          // YY = Year
          // 1989
     
+      const centuryVar = String(birthYear).substring(0, 2)
+        const yearVar = String(birthYear).substring(2)
+            // Check that day and month are valid
+        if (birthDay <= 0 || birthDay > 31) {
+            alert('Please enter a valid Day')
+        } else if (birthMonth <= 0 || birthMonth > 12) {
+            alert('Please enter a valid month')
+        } else {
+            // Execute calculation
+            const akanName = akanNameCalculator(centuryVar, yearVar, birthMonth, birthDay, birthGender);
+            alert(`Your Akan name is ${akanName.name} born on ${akanName.day}`)
+        }
+    } else {
+        alert('Please enter either Male or Female in the gender box')
+    }
