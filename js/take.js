@@ -55,3 +55,4 @@ const handleClick = () => {
     } else {
         alert('Please enter either Male or Female in the gender box')
     }
+}
