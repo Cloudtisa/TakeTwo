@@ -20,3 +20,9 @@ const akanNameCalculator = (CC, YY, MM, DD, gender) => {
         return { 'name': femaleNames[wholeNumber], 'day': daysOfTheWeek[wholeNumber] };
     }
 }
+const handleClick = () => {
+    // Step One - Retrieve refrence to HTML elements
+    const birthDayBox = document.getElementById("birthDay")
+    const birthMonthBox = document.getElementById("birthMonth")
+    const birthYearBox = document.getElementById("birthYear")
+    const birthGenderBox = document.getElementById("birthGender")
