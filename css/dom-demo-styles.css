@@ -33,3 +33,8 @@ header nav a {
     letter-spacing: 2px;
     text-decoration: none;
 }
+
+h1 {
+    margin-left: 1rem;
+    letter-spacing: 2px;
+}
