@@ -26,3 +26,9 @@ const handleClick = () => {
     const birthMonthBox = document.getElementById("birthMonth")
     const birthYearBox = document.getElementById("birthYear")
     const birthGenderBox = document.getElementById("birthGender")
+
+        // Step Two - Retrieve input elements values
+    const birthDay = birthDayBox.value;
+    const birthMonth = birthMonthBox.value;
+    const birthYear = birthYearBox.value;
+    const birthGender = birthGenderBox.value;
