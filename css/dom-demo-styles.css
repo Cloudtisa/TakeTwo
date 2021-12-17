@@ -82,3 +82,11 @@ img {
 .card-group .card {
     margin-left: 1.25rem;
 }
+h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
