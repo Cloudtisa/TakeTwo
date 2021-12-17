@@ -32,3 +32,11 @@ const handleClick = () => {
     const birthMonth = birthMonthBox.value;
     const birthYear = birthYearBox.value;
     const birthGender = birthGenderBox.value;
+    
+     // Check user gender
+     const allGendersArray = ["Male", "Female"]
+     if (allGendersArray.includes(birthGender)) {
+         // CC = Century
+         // YY = Year
+         // 1989
+    
