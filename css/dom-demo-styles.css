@@ -1,6 +1,6 @@
 body {
     font-family: OpenSans, sans-serif;
-    background: #bba7d6;
+    background: #b181f0;
     margin: 0;
 }
 header {
@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #fff;
-    padding: 10px;
+    padding: 50px;
     margin: 0;
 }
 
@@ -35,7 +35,7 @@ header nav a {
 }
 
 h1 {
-    margin-left: 1rem;
+    margin-left: 2rem;
     letter-spacing: 2px;
 }
 img {
